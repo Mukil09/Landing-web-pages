@@ -1,0 +1,104 @@
+@media only screen and (max-width: 900px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -200px;
+    text-align: center;
+    transition: 1s;
+  }
+
+  header i {
+    display: block;
+    cursor: pointer;
+  }
+
+  nav .fa {
+    color: #6f5499;
+    position: absolute;
+    left: 13px;
+    top: 10px;
+  }
+
+  nav ul li {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  nav ul li a {
+    width: 100%;
+    color: #6f5499;
+  }
+
+  header .logo {
+    justify-self: flex-start;
+  }
+
+  .fa {
+    text-align: left;
+  }
+
+  header.sticky > .fs {
+    display: block;
+    color: #6f5499;
+  }
+  .sticky i {
+    display: block;
+  }
+  header > .fs,
+  .fa {
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  /* contents */
+
+  .first-page{
+    height: 70vh;
+  }
+
+  .first-page-contents {
+    display: grid;
+    place-items: center;
+  }
+
+  .first-page-contents .imgbox {
+    width: 300px;
+  }
+
+  .third-page-link {
+    display: flex;
+    flex-direction: column;
+  }
+  .sixth-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sixth-form input {
+    width: 250px;
+  }
+
+  .sixth-form button {
+    margin: 20px;
+  }
+
+  footer .content-1,
+  .content-2 {
+    margin: 20px;
+  }
+
+  /* navigation */
+}

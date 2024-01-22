@@ -1,0 +1,138 @@
+@media only screen and (max-width: 990px) {
+  body h2 {
+    font-size: 1.5rem;
+  }
+  body p {
+    font-size: 0.7rem;
+  }
+  /* header */
+  .banner header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner .content {
+    margin-top: 150px;
+  }
+  .banner .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .banner .content p {
+    font-size: 0.7rem;
+  }
+  header nav {
+    height: 100vh;
+    right: 0;
+    position: absolute;
+    background-color: #ccc;
+    margin-top: -15px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header nav .hidehome {
+    display: block;
+  }
+
+  nav ul.showmenu {
+    display: block;
+    transform: translateX(-10%);
+    transition: all 0.9s ease-in-out;
+  }
+
+  header nav ul li {
+    display: block;
+    float: none;
+    padding-top: 100px;
+  }
+
+  .banner header .logo {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 160px;
+    margin: 0;
+  }
+
+  .toggle {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    /* z-index: 1000; */
+  }
+
+  .hide {
+    display: none;
+  }
+
+  header.sticky {
+    background: none;
+    box-shadow: none;
+  }
+
+  /* about */
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .about-content {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  /* services */
+  .services .services-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .services-card .card {
+    width: 350px;
+  }
+
+  /* testimonials */
+
+  .testimonials {
+    display: none;
+  }
+  /* contact */
+  .contact {
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+  }
+  .contact .contact-form {
+    width: 100%;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
+
+  .contact-form input[type="text"] {
+    width: 400px;
+  }
+  .contact-form input[type="email"] {
+    width: 400px;
+  }
+  .contact-form textarea {
+    width: 400px;
+  }
+  .contact-img {
+    display: none;
+  }
+
+  .social-media {
+    margin: 20px;
+  }
+}

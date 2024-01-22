@@ -1,0 +1,152 @@
+@media only screen and (max-width: 900px) {
+  header {
+    width: 100%;
+  }
+
+  header nav .fs {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+    margin-left: 10px;
+  }
+
+  header nav {
+    /* display: none; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color: #242323;
+    transition: 0.9s;
+    padding: 20px 10px;
+  }
+
+  nav ul li {
+    margin: 20px 0;
+  }
+
+  .toggle {
+    display: block;
+    cursor: pointer;
+    z-index: -1;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .banner .content h2 {
+    font-size: 2.4rem;
+  }
+
+  .banner .content p {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  /* services */
+
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abt-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abt-card .imgbx {
+    width: 360px;
+  }
+
+  .abt-card-1,
+  .abt-card-3,
+  .abt-card-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .abt-card-1 .abt-card-content {
+    max-width: 600px;
+    margin-left: 0;
+  }
+
+  .abt-card-2 .abt-card-content {
+    margin-left: 0;
+    max-width: 500px;
+  }
+
+  .abt-card-2 .imgbx img {
+    width: 100%;
+    margin-left: 60px;
+  }
+
+  .abt-card-3 .abt-card-content {
+    max-width: 600px;
+    margin-left: 0;
+  }
+
+  /* gallery */
+
+  .gallery {
+    display: flex;
+    width: 100%;
+    background-color: #dfdfdf;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery-header {
+    margin-bottom: 20px;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .gallery-container .gallery-column {
+    width: 100%;
+  }
+
+  /* contact */
+
+  .contact {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #331685;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .contact-form {
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+}

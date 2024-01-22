@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  background-color: #6f5499;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+header > .fs,
+.fa {
+  display: none;
+  color: #6f5499;
+  font-size: 1.5rem;
+}
+
+header.sticky {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px #ccc;
+  height: 90px;
+}
+
+.sticky li a {
+  color: #6f5499;
+}
+
+.sticky i {
+  display: none;
+}
+
+.logo {
+  margin: 15px 0 0 15px;
+  width: 170px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fs {
+  margin: 20px;
+}
+/* main */
+
+/* first-page */
+
+.first-page {
+  background-color: #6f5499;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.first-page-contents {
+  margin: 80px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.imgbox {
+  width: 600px;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+.first-page-contents h2 {
+  margin-top: 50px;
+}
+
+/* second-page */
+.second-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.second-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1100px;
+}
+
+.second-page-heading h2 {
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.second-page-heading h4 {
+  padding: 10px;
+  font-size: 21px;
+  line-height: 1.5;
+  font-family: "Alkatra", cursive;
+  text-align: center;
+}
+
+.second-page-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  z-index: -1;
+  width: 100%;
+}
+
+.second-page a {
+  text-decoration: none;
+}
+
+.second-page a:hover {
+  text-decoration: underline;
+}
+
+.second-page-btm h3 {
+  font-size: 1rem;
+  padding-bottom: 100px;
+}
+
+/* container for cards */
+
+.second-page-container .box {
+  width: 310px;
+  margin: 25px;
+  padding: 10px 0;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
+}
+
+.second-page-container .box .imgbx {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.second-page-container .box .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second-page-container .box .text h2,
+h3 {
+  text-align: center;
+  padding: 15px 0 10px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* third-page */
+
+.third-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.third-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1100px;
+}
+
+.third-page-content h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+}
+
+.third-page-content h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.third-page-content a {
+  text-decoration: none;
+}
+
+.third-page-content a:hover {
+  text-decoration: underline;
+}
+
+.third-page-link {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 40px 60px;
+}
+
+.third-page-link a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.third-page-link a:hover {
+  color: #45657e;
+  text-decoration: underline;
+}
+
+/* fourth-page */
+
+.fourth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.fourth-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1100px;
+  padding-top: 40px;
+}
+
+.fourth-page-heading h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.fourth-page-heading h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Alkatra", cursive;
+  padding: 10px;
+}
+
+.fourth-page-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  z-index: -1;
+  width: 100%;
+  padding: 10px;
+}
+
+.fourth-page-container .bx {
+  width: 310px;
+  height: 350px;
+  margin: 25px;
+  padding: 10px 0;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.fourth-page-container .bx i {
+  font-size: 100px;
+  margin: 10px;
+  color: #6f5499;
+}
+
+.fourth-page-container .bx .bx-text h2,
+h4 {
+  text-align: center;
+  padding: 15px 0 10px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* fifth-page */
+
+.fifth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.fifth-page-heading {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.fifth-page-heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+}
+
+.fifth-page-heading h4 {
+  font-family: "Alkatra", cursive;
+  font-size: 1.5rem;
+}
+
+.fifth-page-content {
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+.fifth-page a {
+  color: #337ab7;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.fifth-page a:hover {
+  color: #45657e;
+  text-decoration: underline;
+}
+
+/* sixth-page */
+
+.sixth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.sixth-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sixth-page-content h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.sixth-form {
+  margin: 30px 20px;
+}
+
+.sixth-form input {
+  padding: 10px 30px;
+  width: 500px;
+}
+
+.sixth-form .btn {
+  padding: 10px 20px;
+  background-color: #6f5499;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  background-color: #6f5499;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content-1 a {
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+}
+
+.content-1 a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.content-2 p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
